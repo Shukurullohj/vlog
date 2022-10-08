@@ -1,6 +1,6 @@
 <?php
 
-require 'core/bootstrap.php';
+require 'bootstrap.php';
 
 
 $tasks = $connect->query(SELECT FROM * todos);
